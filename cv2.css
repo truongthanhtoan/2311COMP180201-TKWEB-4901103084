@@ -1,0 +1,275 @@
+body{
+    background: #dfe5f9 ;
+    display:flex;
+    justify-content:center;
+    align-items:center ;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    max-width: 900px;
+    min-height: 100px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(250, 3, 3, 0.1);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container .left {
+    position: relative;
+    background:#4f76f5  ;
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profile .img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile .img img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container.left .contact {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    min-height: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container.left .contact .contact1 {
+    line-height: 25px;
+    margin-right: 20px;
+}
+.container.left .contact .icon {
+    margin-right: 10px;
+    color: rgb(139, 155, 170);
+}
+.skill {
+    font-size: 1em;
+    font-weight: 50;
+    color: black;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skill .skills .text {
+    font-size: 1em;
+    font-weight:150;
+    color: black;
+    text-transform: none;
+    text-align: left;
+}
+.skill .skills .percent {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background:rgb(44, 41, 41);
+    display: block;
+    margin-top: 10px;
+}
+.skill .skills .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150%;
+    background: rgb(0, 255, 255)
+}
+.lang {
+    font-size: 1em;
+    font-weight: 90;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lang .langs .text1 {
+    font-size: 1em;
+    font-weight:300;
+    color: rgba(0, 0, 0, 0.907);
+    text-transform: none;
+    text-align: center;
+}
+.lang .langs .percent div {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background:rgba(54, 50, 50, 0.891);
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.lang .langs .text2 {
+    font-size: 1em;
+    font-weight:300;
+    color: rgb(0, 0, 0);
+    text-transform: none;
+    text-align: center;
+}
+.container .right {
+    position: relative;
+    background:#839ffb ;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.profiles {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profiles h2 {
+    color: black;
+    font-size: 2em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.2em ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.profiles h2 span {
+    text-align: left;
+    font-size: 0.75em;
+    font-weight:300 ;
+    color: rgb(85, 81, 81);
+    text-transform: none;
+}
+.container .right .info {
+    font-size: 1em;
+    background: #839ffb;
+    color: black;
+    text-align: left;
+    min-height:200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container .right .info h2 {
+    font-size: 2em;
+    font-weight:600;
+    color: black;
+    text-align:left;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: 3px solid rgba(6, 1, 37, 0.645);
+}
+.container .right .info p {
+    font-size: 1em;
+    color: rgb(8, 0, 0);
+    text-align:left;
+    line-height: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container .right .exp {
+    font-size: 1em;
+    background: #839ffb;
+    color: black;
+    text-align: left;
+    border-radius: 7px;
+    min-height:150px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container .right .exp h2 {
+    font-size: 2em;
+    font-weight:600;
+    text-align:left;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: 3px solid rgba(6, 1, 37, 0.645);
+}
+.container .right .study {
+    font-size: 1em;
+    background: #839ffb;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    border-radius: 7px;
+    min-height:150px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container .right .study h2 {
+    font-size: 2em;
+    font-weight:600;
+    color: rgb(0, 0, 0);
+    text-align:left;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: 3px solid rgba(6, 1, 37, 0.645);
+}
+.container .right .study .highschool {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    min-height: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container .right .study .university {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    min-height: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container .right .study .hs p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+.container .right .study .hs span {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.container .right .study .text1 {
+    margin-right: 20px;
+    line-height: 25px;
+}
+.container .right .study .u p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+.container .right .study .u span {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.container .right .study .text2 {
+    margin-right: 20px;
+    line-height: 25px;
+}
+.container .right .info .contact .contact2 a {
+    text-decoration:none;
+}
