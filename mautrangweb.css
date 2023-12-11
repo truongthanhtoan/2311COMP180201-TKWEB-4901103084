@@ -1,0 +1,87 @@
+/* ===CODFE HEADING STYLE #6 === */
+.cf-title-06 h3 {
+  text-align: center;
+  color:#222; font-size:30px; font-weight:400;
+  text-transform: uppercase;
+  word-spacing: 1px; letter-spacing:2px; color:#c50000;
+}
+.cf-title-06 h3 span {
+  line-height:2em; padding-bottom:15px;
+  text-transform: none;
+  font-size:.7em;
+  font-weight: normal;
+  font-style: italic; font-family: "Playfair Display","Bookman",serif;
+  color:#f64545; letter-spacing:-0.005em; word-spacing:1px;
+  letter-spacing:none;
+}
+.cf-title-06 h3:after, 
+.cf-title-06 h3:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 45px;
+  height: 4px;
+  content: "";
+  right: 45px; 
+  margin:auto;
+  background-color: #ccc;
+}
+.cf-title-06 h3:before { 
+background-color:#9cb7fc;
+  left:45px; width:90px;
+}
+body{
+    margin: 0px;
+}
+#container {
+    width: auto;
+    margin: 0px auto;
+    min-height: 600px;
+    background-color: #c6e2ff;
+}
+#right{
+    background-color: rgb(156, 227, 251);
+    min-height: 400px;
+    width: 200px;
+    float: right;
+}
+header {
+    background-color: rgb(92, 197, 245);
+    height: 150px;
+    position: relative;
+}
+nav {
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+}
+ul li {
+    display: inline-block;/* tu troi*/
+    padding: 5px 10px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+li:hover {
+    text-decoration: underline;
+    background-color: #9cb7fc ;
+    color: #f00;
+    border-radius: 9px;
+}
+#content{
+    background-color: #c6e2ff;
+    min-height: 400px;
+    width: 790px;
+    float: left;
+    padding: 5px;
+}
+footer {
+    background-color: #00f;
+    color: #fff;
+    height: 30px;
+    text-align: center;
+    clear: both;
+    margin: 5px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+}
